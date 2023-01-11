@@ -15,17 +15,17 @@
 
 - The first visualization that was made was through the use of and elbow curve to determine the number of cluster which is used in Kmeans algorithm:
 
-!()[]
+![elbow_curve](https://github.com/miralchangela/Cryptocurrencies/blob/main/image/elbow_curve.png)
 
 - Created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 
-!()[]
+![3d_scatter_plot](https://github.com/miralchangela/Cryptocurrencies/blob/main/image/%23d_scatter_plot.png)
 
 - Created a table with tradable cryptocurrencies using the hvplot.table() function.
 
-!()[]
+![Hvplot_tables](https://github.com/miralchangela/Cryptocurrencies/blob/main/image/table.png)
 
 - Lastly, the MinMaxScaler().fit_transform method used to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one. After that Create a new Dataframe using clustred dataframe.
 - plot an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and  it shows the CoinName when you hover over the data point.
 
-!()[]
+![2d_scatterplot](https://github.com/miralchangela/Cryptocurrencies/blob/main/image/2d_scatterplot.png)
